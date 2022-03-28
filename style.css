@@ -10,12 +10,14 @@ body {
     font-family: 'Red Hat Text', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: hsl(234, 17%, 12%);
+      
 }
 h1 {
     color: hsl(0, 0%, 100%);
     font-size: 15px;
     letter-spacing: 3px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    text-transform:uppercase;
 }
 h3 {
     color: hsl(237, 18%, 59%);
@@ -23,6 +25,7 @@ h3 {
     letter-spacing:2px;
     font-size:10px;
     margin-top: 15px;
+    
 }
 .coming-soon {
     display: flex;
@@ -44,13 +47,7 @@ h3 {
     padding: 20px;
     font-size: 50px;
     border-radius: 5px;
-    background: linear-gradient(
-        to bottom,
-        hsl(235, 16%, 14%) 0%,
-        hsl(235, 16%, 14%) 50%,
-        hsl(236, 21%, 26%) 50%,
-        hsl(236, 21%, 26%)100%
-    );
+    background:hsl(236, 21%, 26%) ;
     height: 100%;
     color:  hsl(345, 95%, 68%);
 }
@@ -61,6 +58,30 @@ position: absolute;
     position: absolute;
     bottom: 0;
 }
+@media (max-width: 667px)
+{
+    .coming-soon h1 {
+        font-size: 20px;
+        letter-spacing: 7px;
+        text-align: center;
+    }
+    .coming-soon{
+        justify-content:flex-end;
+        padding: 0 20px;
+    
+    }
+    img {
+        height:130px;
+    }
+    .countdown div {
+        margin: 8px;
+    }
+    .Day,.Hour,.Minute,.Second {
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
  @media (min-width: 1440px) {
     .stars img, 
     .hills img {
@@ -74,41 +95,3 @@ position: absolute;
       width: 1920px;
     }
 }  
-/* body {
-    background-image: url(./images/bg-stars.svg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: hsl(234, 17%, 12%);
-    font-family: "quicksand", sans-serif;
-    margin: 0;
-    overflow: hidden;
-   
-}
-h2 {
-    font-size: 14px;
-    font-weight: bold;
-    padding: 3rem;
-    color: hsl(0, 0%, 100%);
-    margin: 0;
-}
-h3 {
-    color: hsl(236, 21%, 26%);
-}
-.coming-soon {
-    
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.countdown-start {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-.Day,.Hour,.Minute,.Second{
-    font-size: 1rem;
-    color: hsl(345, 95%, 68%);
-} */
