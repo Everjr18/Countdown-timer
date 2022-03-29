@@ -6,11 +6,11 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 
   - [The challenge](#the-challenge)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-- [Author](#author)
+  - [Author](#author)
 
 
 ### The challenge
