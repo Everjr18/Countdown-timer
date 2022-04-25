@@ -94,7 +94,7 @@ I learned how I can do a DATE in javascript
 ```
 ### Continued development
 
-My next proyect I am going to be focusing and keep learnig about CSS and JS, I could see things so hard like center a container thank this proyect i went to be able to see that, and Javascript could see we can create a lot of things, so i will keep exploring what i can keep learning like arrays. also I am gonna start learning vue.js and how i can use in my next proyect.js
+My next proyect I am going to be focusing and keep learnig about CSS and JS, I could see things so hard like center a container thank this proyect i went to be able to see that, and Javascript could see we can create a lot of things, so i will keep exploring what i can keep learning like arrays. also I am gonna start learning React.js and how i can use it in my next proyect
 
 ## Author
  - Ever Rojas
